@@ -4,7 +4,7 @@ const nextConfig: NextConfig = {
   output: 'export',
   trailingSlash: true,
   images: { unoptimized: true },
-  basePath: '',  // Empty for user sites
+  basePath: '',
   assetPrefix: '',
 };
 
