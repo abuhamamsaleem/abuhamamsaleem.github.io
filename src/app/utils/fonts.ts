@@ -5,13 +5,14 @@ const bFantezyFont = localFont({
   src: '../../../public/fonts/BHamid.woff',
   variable: '--font-BFantezy',
   weight: '400',
-  style: 'normal'
+  style: 'normal',
 });
 
 const arefRuqaa = Aref_Ruqaa({
   variable: '--font-aref-ruqaa',
   weight: '400',
-  style: 'normal'
+  style: 'normal',
+  subsets: ['arabic'],
 });
 
 const geistSans = Geist({
