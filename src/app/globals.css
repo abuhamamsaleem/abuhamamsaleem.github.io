@@ -24,3 +24,22 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.english {
+  font-family: var(--font-inter), sans-serif;
+}
+
+.arabic {
+  font-family: var(--font-aref-ruqaa), sans-serif;
+  font-size: 32px;
+  direction: rtl;
+}
+
+[lang="en"] {
+  font-family: var(--font-inter), sans-serif;
+}
+
+[lang="ar"] {
+  font-family: var(--font-aref-ruqaa), sans-serif;
+  direction: rtl;
+}
