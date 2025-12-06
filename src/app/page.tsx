@@ -8,7 +8,7 @@ export default function Home() {
           <div>أبو حمام للحلول البرمجية</div>
         </div> */}
         <div className="w-full">
-          <Image src="/svg/logoV1.svg" 
+          <Image src="/images/logoV1.png" 
             alt="Icon" 
             width={120} 
             height={120}></Image>
