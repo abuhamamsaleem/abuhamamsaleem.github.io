@@ -1,4 +1,4 @@
-import { Geist, Geist_Mono, Inter, Noto_Sans_Arabic, Aref_Ruqaa } from "next/font/google";
+import { Geist, Geist_Mono, Inter, Noto_Sans_Arabic, Aref_Ruqaa, Noto_Nastaliq_Urdu } from "next/font/google";
 import localFont from 'next/font/local';
 
 const bFantezyFont = localFont({
@@ -35,8 +35,14 @@ const notoSansArabic = Noto_Sans_Arabic({
   variable: '--font-noto-sans-arabic',
 });
 
+const notoSansNastaliq = Noto_Nastaliq_Urdu({
+  subsets: ['arabic'],
+  variable: '--font-noto-nastaliq',
+});
+
 export const fonts = {
   inter,
   bFantezyFont,
-  arefRuqaa
+  arefRuqaa,
+  notoSansNastaliq
 };

@@ -15,7 +15,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${fonts.inter.variable} ${fonts.arefRuqaa.variable} antialiased`}
+        className={`${fonts.inter.variable} ${fonts.notoSansNastaliq.variable} antialiased`}
       >
         {children}
       </body>

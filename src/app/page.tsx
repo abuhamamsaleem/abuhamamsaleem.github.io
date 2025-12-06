@@ -1,9 +1,17 @@
+import Image from 'next/image';
+
 export default function Home() {
   return (
     <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
       <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <div className="arabic w-full">
+        {/* <div className="arabic w-full">
           <div>أبو حمام للحلول البرمجية</div>
+        </div> */}
+        <div className="w-full">
+          <Image src="/svg/logoV1.svg" 
+            alt="Icon" 
+            width={120} 
+            height={120}></Image>
         </div>
         {/* <div className="english">Abu hamam software solutions</div> */}
       </main>

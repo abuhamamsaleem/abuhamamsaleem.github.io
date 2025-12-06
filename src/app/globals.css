@@ -30,7 +30,7 @@ body {
 }
 
 .arabic {
-  font-family: var(--font-aref-ruqaa), sans-serif;
+  font-family: var(--font-noto-nastaliq), sans-serif;
   font-size: 32px;
   direction: rtl;
 }
@@ -40,6 +40,6 @@ body {
 }
 
 [lang="ar"] {
-  font-family: var(--font-aref-ruqaa), sans-serif;
+  font-family: var(--font-noto-nastaliq), sans-serif;
   direction: rtl;
 }
